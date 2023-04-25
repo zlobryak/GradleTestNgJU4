@@ -29,30 +29,4 @@ public class CashbackHackServiceTest {
   public void remainFor1000() {
     assertEquals(0, service.remain(1000));
   }
-
-  @org.junit.jupiter.api.Test
-  public void remainFor1Jupiter() {
-    assertEquals(999, service.remain(1));
-  }
-
-  @org.junit.jupiter.api.Test
-  public void remainFor0Jupiter() {
-    assertEquals(1000, service.remain(0));
-  }
-
-  @org.junit.jupiter.api.Test
-  public void remainFor1001Jupiter() {
-    assertEquals(999, service.remain(1001));
-  }
-
-
-  @org.junit.jupiter.api.Test
-  public void remainFor1000Jupiter() {
-    assertEquals(0, service.remain(1000));
-  }
-
-  @org.junit.jupiter.api.Test
-  public void remainFor999Jupiter() {
-    assertEquals(1, service.remain(999));
-  }
 }
