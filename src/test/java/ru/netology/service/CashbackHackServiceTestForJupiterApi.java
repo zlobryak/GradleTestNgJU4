@@ -2,7 +2,7 @@ package ru.netology.service;
 
 import org.junit.jupiter.api.Assertions;
 
-public class CashbackHackServiceTestForJunpiterApi {
+public class CashbackHackServiceTestForJupiterApi {
     CashbackHackService service = new CashbackHackService();
     @org.junit.jupiter.api.Test
     public void remainFor1() {

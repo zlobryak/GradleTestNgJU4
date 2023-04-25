@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8e2892d-dedd-48ba-8a55-b04680a21fac" name="Changes" comment="Fully Qualified Name">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a8e2892d-dedd-48ba-8a55-b04680a21fac" name="Changes" comment="New class for Junit5 tests added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/service/CashbackHackServiceTestForJunpiterApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="TestNG Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,11 +58,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -109,7 +109,7 @@
       <command value="gradle clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.GradleTestNgJU4 [clean test]">
+  <component name="RunManager" selected="Gradle.CashbackHackServiceTestForJunpiterApi.remainFor1000">
     <configuration name="CashbackHackServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -134,7 +134,7 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CashbackHackServiceTest.testRemain" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CashbackHackServiceTestForJunpiterApi.remainFor1000" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,7 +147,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.service.CashbackHackServiceTest.testRemain&quot;" />
+            <option value="&quot;ru.netology.service.CashbackHackServiceTestForJunpiterApi.remainFor1000&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,7 +155,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
+      <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="CashbackHackServiceTest.testRemainFor999" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -229,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CashbackHackServiceTestForJunpiterApi.remainFor1000" />
         <item itemvalue="Gradle.CashbackHackServiceTest.testRemainFor999" />
         <item itemvalue="Gradle.CashbackHackServiceTest" />
         <item itemvalue="Gradle.GradleTestNgJU4 [clean test]" />
         <item itemvalue="Gradle.GradleTestNgJU4 [clean]" />
-        <item itemvalue="Gradle.CashbackHackServiceTest.testRemain" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +267,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682104316397</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New class for Junit5 tests added">
+      <created>1682438419531</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682438419531</updated>
+    </task>
+    <task id="LOCAL-00005" summary="New class for Junit5 tests added">
+      <created>1682438431033</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682438431033</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +299,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Java Class added" />
     <MESSAGE value="testNg first step" />
-    <option name="LAST_COMMIT_MESSAGE" value="testNg first step" />
+    <MESSAGE value="New class for Junit5 tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="New class for Junit5 tests added" />
   </component>
 </project>
